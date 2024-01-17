@@ -35,6 +35,43 @@
         // **
         // *
 
+        // square n*n
+
+        // int n=5; //no of rows and columns
+        // for(int i=1;i<=5;i++){
+        //     for(int j=1; j<=5; j++){
+        //         System.out.print("*");
+        //     }
+        //     System.out.println("");
+        // }
+
+        // output:
+        // *****
+        // *****
+        // *****
+        // *****
+        // *****
+
+
+        //rectangle r*c r=row,c=columns
+
+        // int r=4;
+        // int c=7;
+        // for(int i=1;i<=r;i++){
+        //     for(int j=1;j<=c;j++){
+        //         System.out.print("*");
+        //     }
+        //     System.out.println();
+        // }
+
+        // output:
+        // *******
+        // *******
+        // *******
+        // *******
+
+
+
 
 
  
