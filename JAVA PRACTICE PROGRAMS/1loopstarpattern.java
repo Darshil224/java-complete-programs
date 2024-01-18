@@ -70,6 +70,97 @@
         // *******
         // *******
 
+        //left half pyramid
+
+        // int r=5;
+        // for(int i=1;i<=r;i++){
+        //     for(int j=r;j>i;j--){
+        //         System.out.print("1");    //can replace "1" by " ", here used 1 for better understanding
+        //     }
+        //     for(int k=1;k<=i;k++){
+        //     System.out.print("*");
+        //     }
+        //     System.out.println(); //for changing to new line
+        // }
+
+        // Output:
+        // 1111*
+        // 111**
+        // 11***
+        // 1****
+        // *****
+     
+
+        //revrse left half pyramid r rows
+
+
+        // int r=5;
+        // for (int i = 1; i <=r; i++) {
+        //     for (int j = 1; j <i; j++) {
+        //         System.out.print("1");
+                
+        //     }
+        //         for (int k = r; k >=i; k--) {
+        //             System.out.print("*");
+                    
+        //         }
+        //         System.out.println();
+        //     }
+
+            // output:
+
+            // *****
+            // 1****
+            // 11***
+            // 111**
+            // 1111*
+
+            //pyramid(triangle) r rows
+
+            // int r=6;
+
+            // for (int i = 1; i <=r; i++) {
+            //     for (int j = r; j > i; j--) {
+            //         System.out.print("1");
+                    
+            //     }
+            //     for (int k = 1; k<=i; k++) {
+            //         System.out.print("* "); //notice the space given after * , that is very very important here
+                    
+            //     }
+            //     System.out.println();  // ending line after each row
+                
+            // }
+
+            // output:-
+
+            // 1111* 
+            // 111* *
+            // 11* * *
+            // 1* * * *
+            // * * * * *
+
+            // but if we do not add space after * i.e "*" then output will be:-
+
+            // 1111*
+            // 111**
+            // 11***
+            // 1****
+            // *****
+
+
+
+
+        }
+
+
+
+        
+
+
+
+        
+
 
 
 
@@ -78,4 +169,3 @@
 
     }
     
-}
