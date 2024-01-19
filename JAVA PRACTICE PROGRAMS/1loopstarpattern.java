@@ -278,6 +278,47 @@
             //     **
             //      *
 
+            //mirror image triangle pattern:
+
+            // int r=5;
+            // for (int i = 1; i<r ; i++) {
+            //     for (int j = 1; j <i; j++) {
+            //         System.out.print("1");
+
+                    
+            //     }
+            //     for (int j = r; j >=i; j--) {
+            //         System.out.print("* ");
+                    
+            //     }
+            //     System.out.println();
+            // }
+            // for (int i = 1; i <=r; i++) {
+            //     for (int j =r; j >i; j--) {
+            //         System.out.print("1");
+                    
+            //     }
+            //     for (int j = 1; j <=i; j++) {
+            //         System.out.print("* ");
+                    
+            //     }
+            //     System.out.println();
+            // }
+
+            // output:-
+
+            // * * * * * 
+            // 1* * * *
+            // 11* * *
+            // 111* *
+            // 1111*
+            // 111* *
+            // 11* * *
+            // 1* * * *
+            // * * * * *
+
+
+
            
 
 
