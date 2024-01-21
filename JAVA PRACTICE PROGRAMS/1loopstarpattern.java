@@ -205,7 +205,7 @@
                 
             // }
 
-            //right half diamond
+            //right half diamond/Right Pascal's Triangle
 
             // int r=5;
             // for (int i = 1; i <=r; i++) {
@@ -236,7 +236,7 @@
             // **
             // *
 
-            //left half diamond
+            //left half diamond/ Left Pascal's Triangle
 
 
 
@@ -278,7 +278,7 @@
             //     **
             //      *
 
-            //mirror image triangle pattern:
+            //mirror image triangle/ Sandglass Star pattern:
 
             // int r=5;
             // for (int i = 1; i<r ; i++) {
@@ -317,6 +317,7 @@
             // 1* * * *
             // * * * * *
             
+
 
 
 
