@@ -22,7 +22,7 @@ class Calculator{
 
     // System.out.println(result);
 
-    Calculator calc = new Calculator(); //creating an object
+    Calculator calc = new Calculator(); //creating an object//
     // calc is reference variable of Calculator data type
     int result =calc.add(4,5);
     System.out.println(result);
