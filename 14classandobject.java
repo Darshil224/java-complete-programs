@@ -24,7 +24,7 @@ class Calculator{
 
     Calculator calc = new Calculator(); //creating an object//
     // calc is reference variable of Calculator data type
-    int result =calc.add(4,5);
+    int result =calc.add(num1,num2);
     System.out.println(result);
 }
 
