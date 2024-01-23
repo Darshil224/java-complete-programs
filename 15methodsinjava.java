@@ -17,7 +17,7 @@ class Computer
          return "Nothing";
 
         // if(cost>=10)
-        //  return "Pen";   /*this will work same, once if any return is executed, it will come out of method */
+        //  return "Pen";   /*this will work same,once if any return is executed,it will come out of method block */
         
         // return "Nothing";
 
