@@ -1,6 +1,6 @@
 class hello
 { 
-    public static void main(String a[])
+    public static void main(String a[]) // main indicates this is the entry point of the program
     {
       int num1= 5;
       int num2 = 4;
