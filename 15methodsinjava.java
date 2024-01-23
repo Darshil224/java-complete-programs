@@ -11,8 +11,16 @@ class Computer
     }
     public String getMeAPen(int cost) //method//return type= String, int cost =if you have to call this function you have to pass the integer cost 
     //string is a special type in java , a combination of characters , has to be enclosed in ""
-    {
-        return "Pen";
+    {   if(cost>=10)
+         return "Pen";
+        else
+         return "Nothing";
+
+        // if(cost>=10)
+        //  return "Pen";   /*this will work same, once if any return is executed, it will come out of method */
+        
+        // return "Nothing";
+
     }
 }
 
@@ -23,7 +31,8 @@ class Computer
     {
         Computer obj = new Computer();
         obj.playMusic();
-        obj.getMeAPen(10);
+        String str= obj.getMeAPen(10);
+        System.out.println(str);
 
     }
     
