@@ -2,7 +2,7 @@
 class Computer
 {
    public void playMusic() //creating/defining a method
-   //public= can be accessed from anywhere, void=return type ie we are nort expecting snything in return, playMusic is the name of the method.
+   //public= can be accessed from anywhere, void=return type ie we are not expecting snything in return, playMusic is the name of the method.
     {
         System.out.println("Music Playing...");
         //here nothing is returning, this method is just performing some operation

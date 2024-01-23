@@ -28,9 +28,6 @@ class Calculator{
     System.out.println(result);
 }
 
-
-
-    
     
 }
 //every object has two things- properties and methods(action/behavior)
