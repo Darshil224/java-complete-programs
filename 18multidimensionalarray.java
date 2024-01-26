@@ -2,7 +2,7 @@
 
     public static void main(String[] args)
     {
-        int nums[][] = new int[3][4]; //creating 2 dimensional array nums// dynamic way, by default all values are 0.
+        int nums[][] = new int[3][4]; //creating 2 dimensional array nums// dynamic way, by default all values of integer array are 0.
         //3 arrays containing one array each of 4 elements, or we can say 3 rows and 4 columns for understanding.
 
 

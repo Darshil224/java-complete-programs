@@ -13,9 +13,9 @@ class creationofArray{
 
         // Creating a dynamic array
 
-        int abc[] = new int[4]; //array with 4 elements. By default all the element values is 0.
+        int abc[] = new int[4]; //array with 4 elements. By default all the element values of integer array is 0.
 
-        System.out.println(abc[1]); // will give output 0, because By default all the element values is 0.
+        System.out.println(abc[1]); // will give output 0, because By default all the element values of integer array is 0.
 
         //lets assign some values to the abc array
 
