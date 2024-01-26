@@ -5,7 +5,7 @@ class Student
     int marks;
 
 }
- class arrayofobjects {
+ class enhancedforloop {
 
     public static void main(String[] args) 
     {
@@ -31,10 +31,32 @@ class Student
         students[1] = s2;
         students[2] = s3;
 
-        for (int i = 0; i < students.length; i++) //students.length will automatically detect length of students. here it is 3.
+        for(Student stud:students) //enhanced for loop. here Student is the data type(like in example-2 below we used int as data type)
         {
-            System.out.println(students[i].name +  ":" + students[i].marks);
-            
+            System.out.println(stud.name + ":" + stud.marks);
         }
+
+        // for (int i = 0; i < students.length; i++) //students.length will automatically detect length of students. here it is 3.
+        // {
+        //     System.out.println(students[i].name +  ":" + students[i].marks);
+            
+        // }
+
+
+        //example-2.enhanced for loop:-
+
+        int abc[] = new int[4]; //array with 4 elements. By default all the element values of integer array is 0
+        abc[0] = 2;
+        abc[1] = 4;
+        abc[2] = 6;
+        abc[3] = 8;
+        
+       //enhanced for loop (or for-each loop). only used for arrays and array like things(like collections)
+        for(int n:abc)  // values from abc are stored in int n. one value at a time.//it will itterate over the abc until last value.
+        {
+            System.out.println(n);
+        }
+
     }
+
 }
