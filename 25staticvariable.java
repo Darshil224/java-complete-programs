@@ -1,14 +1,13 @@
   class Mobile{
     String name;
     int price;
-    String type;
+    static String type; //static variable named "type". static variable is shared by all the objects.
+    //if value of static variable is modified, then it will affect all the objects using that static variable.
 
     public void show(){
-        System.out.println("Name :" + name, "price :" + price, "type :" + type);
+        System.out.println("Name :" + name + " price :" + price +" type :" + type);
     }
   }
-    
-    
     
     class staticvariable {
         public static void main(String[] args) {
@@ -16,15 +15,27 @@
 
             obj1.name="Apple";
             obj1.price=100000;
-            obj1.type="smartphone";
+           Mobile.type="smartphone"; //The static field Mobile.type should be accessed in a static way
+            // obj1.type="smartphone"; //this will also work same. but The static field Mobile.type should be accessed in a static way
+            //static variable should be called by class name and not the object name. they can be called with the object name. but class name is preferred.
 
             Mobile obj2 = new Mobile();
 
             obj2.name="Samsung";
             obj2.price=90000;
-            obj2.type="smartphone";
-        }
+            Mobile.type="smartphone";//The static field Mobile.type should be accessed in a static way
+            // obj2.type="smartphone"; //this will also work same. but The static field Mobile.type should be accessed in a static way
 
+           obj1.show();
+           obj2.show();
+
+           obj1.type="Keypad"; //We are trying to change the name of obj1, but the name of obj2 will also get changed.The reason is that the static variable is shared by everyone.
+
+           obj1.show();
+           obj2.show(); //you will see obj2.name will also be modified!
+
+        }
+//Static keyword means you are making something as a class member and not the object member.
     
 }
 
