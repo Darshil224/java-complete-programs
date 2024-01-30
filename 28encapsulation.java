@@ -5,7 +5,7 @@
 
     //Then how to access private variables outside this class? Solution: by their own public methods. :-
 
-    public int getAge(){ //method. getAge is name of method.
+    public int getAge(){ //method. getAge is name of method.//we can name this method anything we want,it will work same. But we usually name them get<variable name> and set<variable name>. why? = this increases code readability and makes code understandable.
         return age; //here we can access the private variables, because it is the same class
     }
 
