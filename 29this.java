@@ -2,26 +2,20 @@ class Human {
     private int age;  
     private String name;
 
-
-
-
-
-
-    //right click on vs code and go to source action; select generate getters and setters:-
+ //right click on vs code and go to source action; select generate getters and setters:-
     public int getAge() {
         return age;
     }
-    public void setAge(int a) {
+    public void setAge(int age) {
         this.age = age; // this is a keyword which represens the current object. current object:-objevt which is calling the method.
+    }
     public String getName() {
         return name;
     }
     public void setName(String name) {
         this.name = name;
     } 
-    
-
-   
+      
     // public int getAge() {  
     //     return age;  
     // }
