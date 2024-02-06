@@ -1,6 +1,6 @@
 
 enum Status{ //Status is like a class
-    Running, Failed, Pending, Success;  //These all are like objects of Status. we can use any of these objects.
+    Running, Failed, Pending, Success;  //These all are like objects of Status (constants). we can use any of these objects.
 
 } 
  
