@@ -28,7 +28,7 @@ interface A
 
         //same can be written as:-
  
-    	// A obj=  ()->   //  -> is the lambda expression 
+    	// A obj=  ()->   //  -> is the lambda expression , lambda expression only works with functional interface(because it has only one method)
     	 
     	// 	{
     	// 		System.out.println("in Show");
