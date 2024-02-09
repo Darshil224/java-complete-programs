@@ -1,6 +1,6 @@
-class NavinException extends Exception
+class DarshilException extends Exception
 {
-	public NavinException(String string)
+	public DarshilException(String string)
 	{
 		super(string);
 	}
@@ -19,7 +19,7 @@ class NavinException extends Exception
     		j=18/i;
     		if(j==0)
 //    			throw new Exception("I don't want to do print zero");
-    			throw new NavinException("I don't want to do print zero");
+    			throw new DarshilException("I don't want to do print zero");
     	}
 
     	catch(ArithmeticException e)
