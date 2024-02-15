@@ -24,7 +24,7 @@ class Student
 //	{
 ////		return 0;
 //		if(this.age >that.age)
-//			return 1;
+//			return 1;     //1 means swwap, -1 means dont swap
 //		else
 //			return -1;
 //	}
