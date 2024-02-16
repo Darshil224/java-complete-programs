@@ -60,7 +60,7 @@ public class Demo {
 //    	}
     	for(Object n:nums)
     	{
-    		int num=(Integer)n;
+    		int num=(Integer)n  ;
     		System.out.println(nums);	
     	}
     }
